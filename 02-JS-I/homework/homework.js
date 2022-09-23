@@ -1,13 +1,13 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = pac for life;
+const nuevaString = "string";
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 4;
+const nuevoNum = 4 ;
 
 // Crea una variable booleana:
-const nuevoBool = true;
+const nuevoBool = true ;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -95,7 +95,9 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num > 50) {return true;} else {return false;}
+  if (num > 50) {
+    return true;} else {
+     return false;}
 }
 
 function obtenerResto(x, y) {
@@ -134,26 +136,26 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  return num*num*num; 
+  return num*num*num 
 }
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  return Math.pow (num , exponent);
+  return Math.pow (num , exponent)
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código: 
-   return Math.round (num);
+   return Math.round (num)
   
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-   return Math.ceil (num);
+   return Math.ceil (num)
 }
 
 function numeroRandom() {
@@ -170,9 +172,9 @@ function esPositivo(numero) {
   if (numero === 0) { 
     return false;}
     else if (numero > 0) { 
-      return "es positivo"; }
+      return "Es positivo"; }
       else {
-        return "es negativo";
+        return "Es negativo";
        } 
 }
 
@@ -180,7 +182,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  return (str) + "!" ;
+  return str + "!" ;
 }
 
 function combinarNombres(nombre, apellido) {
@@ -195,14 +197,14 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "Hola" + nombre + "!"; 
+  return "Hola " + nombre + "!"; 
   
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  return (ancho * altura) ;
+  return ancho * alto ;
 }
 
 
