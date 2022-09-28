@@ -4,7 +4,7 @@
 const nuevaString = "string";
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 6 ;
+const nuevoNum = 5 ;
 
 // Crea una variable booleana:
 const nuevoBool = true ;
@@ -66,8 +66,8 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (x === y) {
-    return "true" ;} else {
-      return "false" ;}  
+    return true; } else {
+      return false; }  
   
 }
 
@@ -189,8 +189,9 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var combinado = nombre + "" + apellido ;  
-  return combinado 
+
+   return nombre + " " + apellido
+
 }
 
 function obtenerSaludo(nombre) {
@@ -237,11 +238,11 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if (letra.length > 1) {
-    return "Dato Incorrecto"; } else if (letra === "a" || "e" || "i" || "o" || "u") {
+  if ( letra.length > 1) {
+    return "Dato incorrecto"; } else if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
     return "Es vocal"; 
   } else {
-    return "Dato Incorrecto"
+    return "Dato incorrecto"
   }
   
 }
